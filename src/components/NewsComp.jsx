@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const News = () => {
+const NewsComp = () => {
   const [userQuery, setUserQuery] = useState("example");
   const [country, setCountry] = useState("India");
   const [articles, setArticles] = useState([]);
@@ -207,4 +207,4 @@ const languages = [
   },
 ];
 
-export default News;
+export default NewsComp;
