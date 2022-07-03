@@ -1,5 +1,5 @@
 import React, {Component, useState,useEffect} from "react";
-import Weathercard from "./Weathercard";
+import WeatherComp from "./WeatherComp";
 import '../styles/App.css';
 
 const App = () => {
